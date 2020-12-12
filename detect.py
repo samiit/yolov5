@@ -126,7 +126,7 @@ def detect(source='input', weights='weights/best.pt', view_img=False,
 
             # Save results (image with detections)
             if save_img:
-                if dataset.mode == 'images':
+                if dataset.mode in ['image', 'images']:
                     cv2.imwrite(save_path, im0)
                 else:
                     if vid_path != save_path:  # new video
