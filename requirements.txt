@@ -12,7 +12,12 @@ tensorboard>=2.2
 torch>=1.7.0
 torchvision>=0.8.1
 tqdm>=4.41.0
-fastai
+fastai==2.1.8
+fastai2==0.0.17
+fastbook==0.0.16
+fastcache==1.1.0
+fastcore==1.3.10
+fastprogress @ file:///home/jhoward/anaconda3/conda-bld/fastprogress_1597927594295/work
 
 # logging -------------------------------------
 # wandb
